@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-text {
+  font-size: 1.5em;
+  margin: 20px;
+  text-align: center;
+  color: black;
+}
+
+.timer-container {
+  display: inline-block;
+  padding: 40px;
+  font-size: 2.5em;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #D3D3D3;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.start-timer-btn {
+  padding-top: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding-left: 500px;
+}
+
+.timer-button {
+  color: black;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px 50px;
+  border-radius: 10px;
+  background-color: #D3D3D3;
+}
+
+.timer-button:hover {
+  background-color: #A9A9A9;
+  transition: 0.2s ease-in-out;
+}
